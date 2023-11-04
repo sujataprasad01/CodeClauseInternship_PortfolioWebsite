@@ -1,5 +1,7 @@
 import styles from './App.module.css';
 import About from './components/About/About';
+import { Contact } from './components/Contact/Contact';
+import Credit from './components/Credits/Credit';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
 import Project from './components/Projects/Project';
@@ -14,6 +16,8 @@ function App() {
     <About></About>
     <Skills></Skills>
     <Project></Project>
+    <Contact></Contact>
+    <Credit></Credit>
     </div>
     </>
   )

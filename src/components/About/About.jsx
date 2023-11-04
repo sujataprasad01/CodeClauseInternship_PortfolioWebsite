@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.aboutnavbar}>
-      Domains
+      <h3 className={styles.title}>DOMAINS</h3>
       </div>
      
       <div className={styles.content}>
@@ -20,20 +20,20 @@ const About = () => {
         <div className={styles.description}>
            <div className={styles.list}>
                 <div className={styles.ds}><img src={dsicon} ></img></div>
-                <div className={styles.domain}><h3>Data Scientist</h3><p>Currently working on Data Scientist with the domains under it like Al,Ml and DL. Intrested in python and statistics and algotithms</p></div>
+                <div className={styles.domain}><h3  className={styles.domain}>Data Scientist</h3><p>Currently working on Data Scientist with the domains under it like Al,Ml and DL. Intrested in python and statistics and algotithms</p></div>
             </div>
             <div className={styles.list}>
                 <div><img src={fronticon}></img></div>
-                <div className={styles.domain}><h3>Frontend Developer</h3>
+                <div className={styles.domain}><h3  className={styles.domain}>Frontend Developer</h3>
                 <p>I'm a front-end developer with experience in building responsive and optimized sites with HTML, CSS and JS including libraries like react.js. </p></div>
             </div>
             <div className={styles.list}>
                 <div><img src={backicon}></img></div>
-                <div className={styles.domain}><h3>Backend Developer</h3><p>I can develop fast and optimised back-end systems and APIs using MERN</p></div>
+                <div className={styles.domain}><h3  className={styles.domain}>Backend Developer</h3><p>I can develop fast and optimised back-end systems and APIs using MERN</p></div>
             </div> 
             <div className={styles.list}>
                 <div><img src={uiicon}></img></div>
-                <div className={styles.domain}><h3>UI Designer</h3><p>I have designed multiple landing pages and have created design systems as well</p></div>
+                <div className={styles.domain}><h3  className={styles.domain}>UI Designer</h3><p>I have designed multiple landing pages and have created design systems as well</p></div>
             </div>
             
         </div>

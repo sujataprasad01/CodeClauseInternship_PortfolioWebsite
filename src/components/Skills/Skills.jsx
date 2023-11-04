@@ -30,7 +30,7 @@ const Skills = () => {
   return (
     <>
     <div className={styles.container}>
-    <div> Skills</div>
+    <h3 className={styles.title}> SKILLS</h3>
     <div className={styles.items}>
       <img src={cpp} className={styles.skillitem} title='C++'></img>
       <img src={c} className={styles.skillitem} title='C'></img>

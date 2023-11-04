@@ -104,6 +104,9 @@
     .container{
         flex-direction: column-reverse;
     }
+    .heroImg{
+        margin-bottom: 50px;
+    }
     .content{
         align-items: center;
     }

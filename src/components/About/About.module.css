@@ -1,9 +1,9 @@
 @import "../../vars.css";
 
 .container{
-    background-color: black;
+    /* background-color: black; */
     width: 90%;
-    height: 700px;
+    height: 650px;
     position:relative;
     display: flex;
     /* align-items:center; */
@@ -24,6 +24,15 @@
     /* align-items: flex-start; */
     /* align-content: flex-start; */ 
 }
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+  }
+  .domain{
+    margin-bottom: 5px;
+  }
 .content{
     display: flex;
     flex-direction: row;
