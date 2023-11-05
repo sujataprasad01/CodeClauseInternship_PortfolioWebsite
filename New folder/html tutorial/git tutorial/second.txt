@@ -1,0 +1,4 @@
+this is version 1 of my project
+i wan to go into commit 2
+git status git inti git add --a git commit -m "" git log
+thid di change now
