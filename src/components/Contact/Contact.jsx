@@ -6,12 +6,14 @@ import mail from '../../assets/contact/emailIcon.png'
 import linkedin from '../../assets/contact/linkedinIcon.png'
 import github from '../../assets/contact/githubIcon.png'
 import insta from '../../assets/contact/icons8-instagram-50.png'
+import Credit from "../Credits/Credit";
 export const Contact = () => {
   return (
+    <>
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2 className={styles.title}>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <p><span className={styles.coloredword}>Feel free to reach out!</span></p>
       </div>
       <div className={styles.icons}>
       <ul className={styles.links}>
@@ -41,5 +43,9 @@ export const Contact = () => {
       </ul>
       </div>
     </footer>
+ <div>
+   <Credit></Credit>
+ </div>
+     </>
   );
 };

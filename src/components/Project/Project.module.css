@@ -50,8 +50,11 @@
   font-size: 25px;
   font-weight: 700;
   height: 0.2px;
+  margin-top: 7%;
 }
-
+.coloredword{
+  color: var(--color-ho);
+}
 .description {
   /* margin-top: 1px; */
   font-size: 20px;

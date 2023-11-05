@@ -3,15 +3,16 @@ import styles from './Project.module.css'
 import newsmonkey from '../../assets/projects/newsmonkey.png'
 import iNotebook from '../../assets/projects/inot.png'
 import netflix from '../../assets/projects/netflixclone.png'
-
+import { Contact } from '../Contact/Contact'
 const Project = () => {
   return (
+    <>
    <section className={styles.container}>
     <h3 className={styles.title}>Recent Projects</h3>
     <div className={styles.projects}>
      <div className={styles.containerr}>
         <img src={iNotebook} className={styles.image}></img>
-     <h4 className={styles.title}>iNotebook</h4>
+     <h4 className={styles.title}><span className={styles.coloredword}>iNotebook</span></h4>
         <p className={styles.description}>It is a full stack project that is notes keeping app, where you can keep your notes securely with creating an account.</p>
         <ul className={styles.skills}>
          <li className={styles.skill}>MongoDb</li>
@@ -26,7 +27,7 @@ const Project = () => {
      </div>
      <div className={styles.containerr}>
         <img src={netflix} className={styles.image}></img>
-        <h4 className={styles.title}>News Website</h4>
+        <h4 className={styles.title}><span className={styles.coloredword}>News Website</span></h4>
         <p className={styles.description}>With JavaScript libraries at its core, NewsMonkey offers a quick and convenient way to access bite-sized daily news updates.</p>
         <ul className={styles.skills}>
          <li className={styles.skill}>React.js</li>
@@ -41,7 +42,7 @@ const Project = () => {
      </div>
      <div className={styles.containerr}>
         <img src={newsmonkey} className={styles.image}></img>
-        <h4 className={styles.title}>Netflix Clone</h4>
+        <h4 className={styles.title}><span className={styles.coloredword}>Netflix Clone</span></h4>
         <p className={styles.description}>A Netflix-inspired website clone that demonstrates a remarkable level of creativity through its extensive use of CSS attributes</p>
         <ul className={styles.skills}>
          <li className={styles.skill}>HTML</li>
@@ -56,6 +57,10 @@ const Project = () => {
      </div>
     </div>
    </section>
+    <div>
+    <Contact></Contact>
+    </div>
+    </>
   )
 }
 

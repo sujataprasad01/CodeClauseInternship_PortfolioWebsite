@@ -24,8 +24,7 @@ import ml from '../../assets/skills/ml.png'
 import vs from '../../assets/skills/visual-studio.png'
 import linux from '../../assets/skills/linux.png'
 
-
-
+import { Contact } from '../Contact/Contact'
 const Skills = () => {
   return (
     <>
@@ -57,6 +56,9 @@ const Skills = () => {
       <img src={linux} className={styles.skillitem} title='Linux'></img>
       </div>
 
+    </div>
+    <div>
+    <Contact></Contact>
     </div>
     </>
   )
