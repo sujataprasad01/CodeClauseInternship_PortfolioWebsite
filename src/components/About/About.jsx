@@ -6,6 +6,8 @@ import backicon from '../../assets/about/serverIcon.png'
 import uiicon from '../../assets/about/uiIcon.png'
 import dsicon from '../../assets/about/datasc.png'
 import { Contact } from '../Contact/Contact'
+import Skills from '../Skills/Skills'
+import { Link } from 'react-router-dom'
 const About = () => {
   return (
     <>
@@ -19,26 +21,34 @@ const About = () => {
             <img src={aboutimg}></img>
         </div>
         <div className={styles.description}>
-           <div className={styles.list}>
+        <Link to='/project'><div className={styles.list}>
                 <div className={styles.ds}><img src={dsicon} ></img></div>
                 <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>Data Scientist</span></h3><p>Currently working on Data Scientist with the domains under it like Al,Ml and DL. Intrested in python and statistics and algotithms</p></div>
             </div>
-            <div className={styles.list}>
+            </Link>
+            <Link to='/project'><div className={styles.list}>
                 <div><img src={fronticon}></img></div>
                 <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>Frontend Developer</span></h3>
                 <p>I'm a front-end developer with experience in building responsive and optimized sites with HTML, CSS and JS including libraries like react.js. </p></div>
             </div>
-            <div className={styles.list}>
+            </Link>
+            <Link to='/project'><div className={styles.list}>
                 <div><img src={backicon}></img></div>
                 <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>Backend Developer</span></h3><p>I can develop fast and optimised back-end systems and APIs using MERN</p></div>
             </div> 
-            <div className={styles.list}>
+            </Link>
+            <Link to='/project'><div className={styles.list}>
                 <div><img src={uiicon}></img></div>
                 <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>UI Designer</span></h3><p>I have designed multiple landing pages and have created design systems as well</p></div>
             </div>
+            </Link>
             
         </div>
       </div>
+    </div>
+    <div>
+
+      <Skills></Skills>
     </div>
     <div>
     <Contact></Contact>

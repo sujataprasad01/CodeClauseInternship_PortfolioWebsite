@@ -1,0 +1,27 @@
+.resume{
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30rem;
+    padding-top: 5rem;
+}
+.resume_button{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#F38B08;
+    height: 5rem;
+    width: 30rem;
+  font-size:larger;
+  border-radius:100px;
+}
+.resume_button Link{
+    height: 5rem;
+    width: 50rem;
+}

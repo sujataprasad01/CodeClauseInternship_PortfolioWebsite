@@ -57,9 +57,9 @@ const Skills = () => {
       </div>
 
     </div>
-    <div>
+    {/* <div>
     <Contact></Contact>
-    </div>
+    </div> */}
     </>
   )
 }

@@ -56,6 +56,7 @@ const Project = () => {
         </div>
      </div>
     </div>
+    <div className={styles.more_projects}><h5>Checkout my Github profile below for more projects... </h5></div>
    </section>
     <div>
     <Contact></Contact>

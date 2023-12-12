@@ -95,7 +95,14 @@
   background: var(--color-primary);
   padding: 1px 22px;
 }
-
+.more_projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 5rem;
+  font-size: 1.5rem;
+}
  @media screen and (max-width:830px){
     .container{
       height: 250vh;

@@ -23,7 +23,7 @@ export const Contact = () => {
           </a>
         </li>
         <li className={styles.link}>
-          <a href="https://www.linkedin.com/myname">
+          <a href="https://www.linkedin.com/in/sujata-prasad/">
           <img
             src={linkedin}
             alt="LinkedIn icon"
@@ -31,7 +31,7 @@ export const Contact = () => {
           </a>
         </li>
         <li className={styles.link}>
-          <a href="https://www.github.com/myname">
+          <a href="https://github.com/sujataprasad01">
           <img src={github} alt="Github icon" />
           </a>
         </li>
