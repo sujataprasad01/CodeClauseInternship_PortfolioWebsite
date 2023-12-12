@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Project.module.css'
-import newsmonkey from '../../assets/projects/newsmonkey.png'
+import newsmonkey from '../../assets/projects/netflixclone.png'
 import iNotebook from '../../assets/projects/inot.png'
-import netflix from '../../assets/projects/netflixclone.png'
+import netflix from '../../assets/projects/newsmonkey.png'
 import { Contact } from '../Contact/Contact'
 const Project = () => {
   return (
