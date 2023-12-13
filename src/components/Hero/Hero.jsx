@@ -2,6 +2,7 @@ import React from 'react'
 import profile from '../../assets/hero/picofme (19).png';
 import styles from './Hero.module.css';
 import { Contact } from '../Contact/Contact';
+import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Hero = () => {
             <p className={styles.description}>
             I'm a versatile skilled in both MERN (MongoDB, Express.js, React.js, Node.js) Full-Stack Development and Data Science. If you're interested in collaborating, feel free to get in touch with me.
             </p>
-            <a href='/contact' className={styles.contactBtn}>Get In Touch</a>
+            <Link to='/contact' className={styles.contactBtn}>Get In Touch</Link>
         </div>
         <img src={profile} alt='"Hero image of me' className={styles.heroImg}></img>
         <div className={styles.topBlur}></div>
