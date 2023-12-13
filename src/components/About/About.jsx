@@ -27,14 +27,14 @@ const About = () => {
             </div>
             </Link>
             <Link to='/project'><div className={styles.list}>
-                <div><img src={fronticon}></img></div>
-                <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>Frontend Developer</span></h3>
-                <p>I'm a front-end developer with experience in building responsive and optimized sites with HTML, CSS and JS including libraries like react.js. </p></div>
+                <div><img src={backicon}></img></div>
+                <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>Data Analyst</span></h3>
+                <p>I'm a Data Analyst can explore, manipulate, visualise and do analysis on big datas</p></div>
             </div>
             </Link>
             <Link to='/project'><div className={styles.list}>
-                <div><img src={backicon}></img></div>
-                <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>Backend Developer</span></h3><p>I can develop fast and optimised back-end systems and APIs using MERN</p></div>
+                <div><img src={fronticon}></img></div>
+                <div className={styles.domain}><h3  className={styles.domain}><span className={styles.coloredword}>Full Stack Web Developer</span></h3><p>I can develop fast and optimised websites, experience in building responsive and optimized sites with Front-end tools and back-end systems and APIs using MERN</p></div>
             </div> 
             </Link>
             <Link to='/project'><div className={styles.list}>
