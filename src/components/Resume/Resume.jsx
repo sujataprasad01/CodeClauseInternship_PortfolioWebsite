@@ -6,7 +6,7 @@ const Resume=()=> {
   return (
     <>
     <div className={styles.resume}>
-      <Link to='https://acrobat.adobe.com/id/urn:aaid:sc:AP:d844f860-8f6d-4981-9916-a98c0f9ad6ac' className={styles.resume_button}><i class="fa-solid fa-download"></i>Download CV</Link>
+      <Link to='https://acrobat.adobe.com/id/urn:aaid:sc:ap:051ce8b0-bf44-48d0-8c76-6593ad1aff46' className={styles.resume_button}><i class="fa-solid fa-download"></i>Download CV</Link>
     </div>
     <div className={styles.resume}>
       <Link to='https://linktr.ee/sujataprasad01' className={styles.resume_button}>Certificates</Link>
@@ -17,5 +17,4 @@ const Resume=()=> {
     </>
   )
 }
-
 export default Resume
